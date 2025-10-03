@@ -14,7 +14,7 @@ To enable feasible assignment and optimization:
 
 Each block is split into smaller segments, referred to within this project context as pieces, based on sequential timepoints. In our case, piece 1 represent the segment between Timepoint 1 and Timepoint 2 within a block, Piece 2 covers Timepoint 2 to Timepoint 3, and so on. These pieces serve as the atomic units of work that must be combined and assigned to an operator exactly once in the final solution.
 
-# Constraints
+## Constraints
 
 Each operator shift (also referred to as a "duty") must satisfy the following:
 
